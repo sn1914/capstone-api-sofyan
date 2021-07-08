@@ -18,6 +18,7 @@ defusedxml==0.7.1
 en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.1.0/en_core_web_md-3.1.0-py3-none-any.whl
 entrypoints==0.3
 Flask==2.0.1
+gunicorn==20.1.0
 idna==2.9
 ipykernel==5.5.5
 ipython==7.7.0
@@ -66,8 +67,8 @@ pyparsing==2.4.6
 pyrsistent==0.17.3
 python-dateutil==2.8.1
 pytz==2019.3
-pywin32==301
-pywinpty==1.1.2
+# pywin32==301
+# pywinpty==1.1.2
 pyzmq==22.1.0
 qtconsole==5.1.0
 QtPy==1.9.0
