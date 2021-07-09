@@ -29,7 +29,7 @@ def process():
                 df = pd.DataFrame(d, columns=['category', 'value'])
 
                 # @TASK : COMPLETE THE FOLLOWING CODES
-                ORG_named_entity = df[df['category'] == 'PERSON']['value'] # Subset semua entitas dengan kategori 'ORG'
+                ORG_named_entity = df[df['category'] == 'ORG']['value'] # Subset semua entitas dengan kategori 'ORG'
                 PERSON_named_entity = df[df['category'] == 'PERSON']['value'] # Subset semua entitas dengan kategori 'PERSON'
                 GPE_named_entity = df[df['category'] == 'GPE']['value'] # Subset semua entitas dengan kategori 'GPE'
                 MONEY_named_entity = df[df['category'] == 'MONEY']['value'] # Subset semua entitas dengan kategori 'MONEY'
